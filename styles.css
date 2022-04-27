@@ -1,5 +1,6 @@
 body {
-  margin:0;
+  margin:0 auto;
+  max-width: 1000px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   place-items:center;
@@ -7,7 +8,19 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+input[name=title] {
+  background-color: rgb(252, 255, 223);
+  min-width: 20rem;
+}
+
+.todo {
+  color: darkgreen;
+  font-weight: 600;
+}
+
 .completed {
   text-decoration: line-through;
   color:grey;
+  font-weight: 100;
+  font-style: italic;
 }

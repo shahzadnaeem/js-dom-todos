@@ -1,0 +1,12 @@
+
+# Get all todos
+
+GET http://localhost:3000/todos
+
+###
+
+# Get a todo
+
+GET http://localhost:3000/todos/2
+
+###
