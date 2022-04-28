@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "Feed the cat",
-      "completed": true
+      "completed": false
     },
     {
       "id": 2,
