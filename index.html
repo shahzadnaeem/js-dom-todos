@@ -13,23 +13,25 @@
 </head>
 
 <body>
-  <div>
-    <h2>Add Todo</h2>
-    <form id="todo-item-form">
-      <label>
-        Title
-        <input name="title" />
-      </label>
-      <input type="submit" value="Add"></input>
-    </form>
-  </div>
-  <div>
-    <h2>Todo List</h2>
-    <ul id="todo-list">
-    </ul>
-    <p id="render-info">Render count: <span id="render-count"></span></p>
-  </div>
-
+  <main>
+    <div>
+      <h2>Add Todo</h2>
+      <form id="todo-item-form">
+        <label>
+          Title
+          <input name="title" />
+        </label>
+        <input type="submit" value="Add"></input>
+      </form>
+    </div>
+    <div>
+      <h2>Todo List</h2>
+      <p>Click a Todo to toggle its status</p>
+      <ul id="todo-list">
+      </ul>
+      <p id="render-info">Render count: <span id="render-count"></span></p>
+    </div>
+  </main>
 </body>
 
 </html>

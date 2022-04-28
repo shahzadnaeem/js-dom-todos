@@ -11,17 +11,18 @@ let renderCount = 1
 newTodoForm.addEventListener('submit', (ev) => {
   ev.preventDefault()
 
-  const todo = ev.target[0].value
+  const todoTitle = ev.target[0].value
 
+  // Clear the form now that we have the TODO title
   ev.target.reset()
 
   // Don't add empty TODOs
-  if (!todo) return
+  if (!todoTitle) return
 
   const postOptions = {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ title: todo, completed: false })
+    body: JSON.stringify({ title: todoTitle, completed: false })
   }
 
   fetch('http://localhost:3000/todos', postOptions)

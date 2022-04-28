@@ -14,16 +14,6 @@
       "id": 3,
       "title": "Fix the gutters",
       "completed": true
-    },
-    {
-      "title": "Dummy!",
-      "completed": false,
-      "id": 6
-    },
-    {
-      "title": "Do more stuff",
-      "completed": false,
-      "id": 7
     }
   ]
 }
